@@ -47,11 +47,11 @@ class PlayerNode:
     assert self.terminal
     p0_rew = 1 if self.cards[0] > self.cards[1] else -1
     if self.h == ['pass', 'pass']:
-      return [p0_rew, -p0_rew]
+      return p0_rew
     if self.h[-2:] == ['bet', 'bet']:
-      return [2 * p0_rew, -2 * p0_rew]
+      return 2 * p0_rew
     p0_rew = 1 if self.player == 0 else -1
-    return [p0_rew, -p0_rew]
+    return p0_rew
 
   @property
   def infoset_repr(self):
