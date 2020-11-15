@@ -1,4 +1,5 @@
-# Minimal-Counterfactual-Regret-Minimization
+# Joint Policy Search
 
-Implementation of basic CFR on Kuhn poker, heavily borrowed from [this source](https://github.com/int8/counterfactual-regret-minimization).  < 150 LOC w/ only the necessary details :) 
+Minimal implementation of vanilla [Joint Policy Search](https://arxiv.org/abs/2008.06495) in Python.
+The minimal implementation of vanilla CFR / Kuhn poker is heavily borrowed from [this source](https://github.com/int8/counterfactual-regret-minimization).
 
